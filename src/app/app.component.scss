@@ -1,0 +1,127 @@
+.mainDiv{
+    display: flex;
+    justify-content: space-around;
+    background-color: whitesmoke;
+}
+.colStyle{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 300px;
+    background-color: white;
+    margin: 10px;
+}
+.colStyle1{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 300px;
+    background-color: rgb(5, 142, 160);
+    margin: 10px;
+}
+.iconcolStyle{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    width: 100px;
+    margin-bottom: 10px;
+}
+.progress{
+    width: 70px;
+    height: 70px;
+    display: table;
+    border: 5px solid rgb(4, 98, 136);
+    border-radius: 50%;
+    background-color: white;
+    margin-bottom: 15px;
+}
+.inner{
+    text-align:center;
+  display:table-cell;
+  vertical-align: middle;
+}
+.shape1{
+    border-bottom: 50px solid #6ec2e4;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 100px;
+    transform: skew(30deg);
+}
+.shape2{
+    width: 150px;
+	height: 60px;
+	background: rgb(110, 194, 228);
+    margin: auto;
+}
+.textStyle{
+    font-size: 12px;
+    text-align: center;
+}
+.numberStyle{
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+.unitStyle{
+    font-size: 14px;
+    color: white;
+}
+.rowbg{
+    background-color: rgb(3, 106, 119);
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.triangle{
+    width: 0;
+	height: 0;
+	border-left: 40px solid transparent;
+	border-right: 150px solid white;
+	border-top: 40px solid transparent;
+    margin-top: 10px;
+opacity: 0.8;
+}
+.squareColor{
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    border-radius: 5px;
+}
+.quiz-chartTip {
+    padding: 5px 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 4px;
+    background-color: rgba(255,255,255,.9);
+    box-shadow: 3px 3px 10px rgba(0,0,0,.1);
+    position: absolute;
+    z-index: 50;
+    max-width: 250px;
+}
+
+.quiz-graph {
+    padding: 10px; 
+    height: 370px;
+    width: 100%;
+}
+
+.quiz-graph .x-labels {
+    text-anchor: middle;
+}
+
+.quiz-graph .y-labels {
+    text-anchor: end;
+}
+
+.quiz-graph .quiz-graph-grid {
+    stroke: #ccc;
+    stroke-dasharray: 0;
+    stroke-width: 1;
+}
+
+.label-title {
+    text-anchor: middle;
+    text-transform: uppercase;
+    font-size: 12px;
+    fill: gray;
+}
+
+.quiz-graph-dot, .quiz-graph-start-dot{
+    fill: rgba(0,112,210,1);
+    stroke-width: 2;
+    stroke: white;   
+}
